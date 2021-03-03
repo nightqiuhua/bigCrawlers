@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//td[@align=\"center\"]/table//tr",
+    "an_title":"./td[@align=\"left\"]/a/text()",
+    "an_url":"./td[@align=\"left\"]/a/@href",
+    "on_date":"./td[3]/text()",
+    "total_page":"//span[@id=\"Label1\"]/div[@align=\"right\"]/text()",
+    "an_sub":"./td[@align=\"left\"]/a/text()",
+    "an_content":"//body"
+  }
+}

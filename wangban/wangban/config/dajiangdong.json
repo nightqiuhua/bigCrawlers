@@ -1,0 +1,15 @@
+{
+  "xpath":
+  {
+    "column":"//table[@class=\"GridView\"]//tr[@class=\"Row\"]",
+    "an_url":".//td[@class=\"DispLimitColumn\"]//a",
+    "an_title":".//td[@class=\"DispLimitColumn\"]//a",
+    "on_date":"./td[@class=\"DateColumn\"][2]",
+    "on_date_web_news":"./td[@class=\"DateColumn\"]",
+    "an_county":"./td[@class=\"DateColumn\"][1]",
+    "total_page":"//div[@class=\"RowPager\"]",
+    "an_content":"//body",
+    "next_page":"//input[@value=\"下页\"]",
+    "input_value":"//input[@id=\"GridViewer1_ctl18_NumGoto\"]"
+  }
+}

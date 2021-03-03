@@ -1,0 +1,210 @@
+
+
+CRAWL_WENCHENG_TASKS = {
+    'name':'wencheng',
+    'source_url':'',
+    'task_queue':'wangban:wencheng:an_work_urls',
+    'task_check':'wangban:wencheng:an_check_urls',
+    'html_type':'static',
+    'tasks':[
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gcjszbgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "建设工程交易",
+        "an_type": "招标公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/cjzcjycrgg/index.htm",
+        "an_county": "小额",
+        "an_major": "建设工程交易",
+        "an_type": "招标公告",
+        "an_sub": "小额"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gcjszbjg/index.htm",
+        "an_county": "NONE",
+        "an_major": "建设工程交易",
+        "an_type": "中标结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gcjsdybc/index.htm",
+        "an_county": "NONE",
+        "an_major": "建设工程交易",
+        "an_type": "答疑补充",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/xegcbcgg/index.htm",
+        "an_county": "小额",
+        "an_major": "建设工程交易",
+        "an_type": "答疑补充",
+        "an_sub": "小额"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gcjshxgs/index.htm",
+        "an_county": "NONE",
+        "an_major": "建设工程交易",
+        "an_type": "候选公示",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/xejyhxgs/index.htm",
+        "an_county": "小额",
+        "an_major": "建设工程交易",
+        "an_type": "候选公示",
+        "an_sub": "小额"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gcjsbzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "建设工程交易",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/zfcgbzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "政府采购交易",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/zfcgdybc/index.htm",
+        "an_county": "NONE",
+        "an_major": "政府采购交易",
+        "an_type": "答疑补充",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/zfcgqtgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "政府采购交易",
+        "an_type": "其他公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/zfcgcggg/index.htm",
+        "an_county": "NONE",
+        "an_major": "政府采购交易",
+        "an_type": "采购公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/zfcgzbgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "政府采购交易",
+        "an_type": "中标公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/tdjycrjg/index.htm",
+        "an_county": "NONE",
+        "an_major": "土地资源交易",
+        "an_type": "出让结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/tdjycrgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "土地资源交易",
+        "an_type": "出让公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/tdjybcgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "土地资源交易",
+        "an_type": "补充公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/tdjybzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "土地资源交易",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/cqjycrjg/index.htm",
+        "an_county": "NONE",
+        "an_major": "国有产权交易",
+        "an_type": "出让结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/cqjycrgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "国有产权交易",
+        "an_type": "出让公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/cqjybzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "国有产权交易",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/kyqjycrgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "协议定点采购",
+        "an_type": "招标公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/kyqjycrjg/index.htm",
+        "an_county": "NONE",
+        "an_major": "协议定点采购",
+        "an_type": "中标结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/kyqjysxgk/index.htm",
+        "an_county": "NONE",
+        "an_major": "协议定点采购",
+        "an_type": "协议出让事项公开",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/kyqjybzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "协议定点采购",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gqcgbzjtf/index.htm",
+        "an_county": "NONE",
+        "an_major": "国企采购",
+        "an_type": "保证金退付",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gqcgdybc/index.htm",
+        "an_county": "NONE",
+        "an_major": "国企采购",
+        "an_type": "答疑补充",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gqcgcggg/index.htm",
+        "an_county": "NONE",
+        "an_major": "国企采购",
+        "an_type": "采购公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://www.wczbtb.com/wzcms/gqcgzbgg/index.htm",
+        "an_county": "NONE",
+        "an_major": "国企采购",
+        "an_type": "中标公告",
+        "an_sub": "NONE"
+    }
+]
+}
+
+def main():
+    return CRAWL_WENCHENG_TASKS

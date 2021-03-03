@@ -1,0 +1,13 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"wb-data-item center\"]/li",
+    "an_title":"./div/a",
+    "an_url":"./div/a",
+    "on_date":"./span",
+    "total_page":"//div[@id=\"MoreInfoList1_Pager\"]//td[@valign=\"bottom\"]/font[2]/b",
+    "an_content":"//body",
+    "total_page":"//a[@id=\"weiye\"]",
+    "next_page":"//li[@class=\"ewb-page-li ewb-page-hover\"][2]/a"
+  }
+}

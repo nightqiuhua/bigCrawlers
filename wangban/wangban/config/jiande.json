@@ -1,0 +1,14 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"ContentList\"]//tr[@class=\"Row\"]",
+    "an_title":".//td[@class=\"DispLimitColumn\"]//a",
+    "an_url":".//td[@class=\"DispLimitColumn\"]//a",
+    "on_date":".//td[@class=\"DateColumn\"]",
+    "on_date_2":".//td[@class=\"DateColumn\"][2]",
+    "total_page":"//div[@class=\"RowPager\"]",
+    "an_content":"//body",
+    "next_page":"//input[@value=\"下页\"]",
+    "input_value_ProArticle":"//input[@id=\"GridViewer1_ctl18_NumGoto\"]"
+  }
+}

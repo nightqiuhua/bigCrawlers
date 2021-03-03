@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul/div[@class=\"c1-body\"]/li",
+    "an_title":"./a/@title",
+    "an_url":"./a/@href",
+    "on_date":"./span/text()",
+    "total_page":"//div[@class=\"pg-3\"]/div/text()",
+    "an_county":"./td[@align=\"left\"]/font[@color=\"red\"]/text()",
+    "an_content":"//body"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "xpath":
+  {
+    "column_1":"//table[@id=\"ctl00_ContentPlaceHolder3_gdvNotice3\"]//tr",
+    "an_title_1":"./td[5]/a",
+    "an_url_1":"./td[5]/a",
+    "on_date_1":"./td[6]",
+
+    "column_2":"//table[@id=\"ctl00_ContentPlaceHolder3_gdvDemandNotice\"]//tr",
+    "an_title_2":"./td[2]/a",
+    "an_url_2":"./td[2]/a",
+    "on_date_2":"./td[3]",
+    "an_content":"//body"
+  }
+}

@@ -1,0 +1,140 @@
+[
+    {
+        "an_sub": "NONE",
+        "an_major": "工程建设",
+        "an_type": "预中标公示",
+        "an_sub_url": "http://www.bidding.gov.cn/gcjsyzbgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "工程建设",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/gcjszbgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "工程建设",
+        "an_type": "中标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/gcjszbgg1/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "工程建设",
+        "an_type": "招标文件预公示",
+        "an_sub_url": "http://www.bidding.gov.cn/gcjszbwjygs/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "材料与设备",
+        "an_type": "预中标公示",
+        "an_sub_url": "http://www.bidding.gov.cn/jsgcclsbzbgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "材料与设备",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/clsbzbgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "材料与设备",
+        "an_type": "中标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/clysbzbgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "材料与设备",
+        "an_type": "招标文件预公示",
+        "an_sub_url": "http://www.bidding.gov.cn/clysbzbwjygs/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "其他公共资源交易",
+        "an_type": "预中标公示",
+        "an_sub_url": "http://www.bidding.gov.cn/qtjyjggs/index.htm"
+    },
+    {
+        "an_sub": "排污权交易",
+        "an_major": "其他公共资源交易",
+        "an_type": "中标结果",
+        "an_sub_url": "http://www.bidding.gov.cn/qtpwqjy/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "其他公共资源交易",
+        "an_type": "中标结果",
+        "an_sub_url": "http://www.bidding.gov.cn/qtzbjg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "其他公共资源交易",
+        "an_type": "交易公告",
+        "an_sub_url": "http://www.bidding.gov.cn/qtjygg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "国有建设用地使用权和采矿权",
+        "an_type": "出让公告",
+        "an_sub_url": "http://www.bidding.gov.cn/gycrgg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "国有建设用地使用权和采矿权",
+        "an_type": "出让结果公示",
+        "an_sub_url": "http://www.bidding.gov.cn/gycrjggs/index.htm"
+    },
+    {
+        "an_sub": "融资需求",
+        "an_major": "产权交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjyrzxq/index.htm"
+    },
+    {
+        "an_sub": "罚没物品",
+        "an_major": "产权交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjyfmwp/index.htm"
+    },
+    {
+        "an_sub": "股权项目",
+        "an_major": "产权交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjygqxm/index.htm"
+    },
+    {
+        "an_sub": "金融资产",
+        "an_major": "产权交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjyjrzc/index.htm"
+    },
+    {
+        "an_sub": "资产项目",
+        "an_major": "产权交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjizcxm/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "产权交易",
+        "an_type": "结果公示",
+        "an_sub_url": "http://www.bidding.gov.cn/cqjyjggs/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "政府采购",
+        "an_type": "结果公告",
+        "an_sub_url": "http://www.bidding.gov.cn/zfcggggg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "政府采购",
+        "an_type": "采购预告",
+        "an_sub_url": "http://www.bidding.gov.cn/zfcgcgyg/index.htm"
+    },
+    {
+        "an_sub": "NONE",
+        "an_major": "政府采购",
+        "an_type": "采购公告",
+        "an_sub_url": "http://www.bidding.gov.cn/zfcgcggg/index.htm"
+    }
+]

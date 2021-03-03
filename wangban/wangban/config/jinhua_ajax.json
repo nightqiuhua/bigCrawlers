@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"Right-Border floatL\"]/dl/dt",
+    "an_title":"./a",
+    "an_url":"./a",
+    "an_county":"//dt/text()",
+    "total_page":"尾页",
+    "next_page":"下一页",
+    "an_content":"//body"
+  }
+}

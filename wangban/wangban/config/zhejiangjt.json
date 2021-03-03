@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"info-list-ul\"]/li",
+    "an_title":"./a",
+    "an_url":"./a",
+    "on_date":"./a",
+    "total_page":"尾页",
+    "next_page":"下一页",
+    "an_content":"//body"
+  }
+}

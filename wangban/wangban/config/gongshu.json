@@ -1,0 +1,13 @@
+
+{
+  "xpath":
+  {
+    "column":"//ul[@id=\"listUl\"]/li",
+    "an_title":"./a",
+    "an_url":"./a",
+    "on_date":"./a/i",
+    "total_page":"//span[@id=\"pageSize\"]",
+    "an_content":"//html",
+    "next_page":"下一页"
+  }
+}

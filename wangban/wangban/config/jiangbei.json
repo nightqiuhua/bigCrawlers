@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//li[@class=\"show\"]/table//tr",
+    "an_title":"./td[2]//a/@title",
+    "an_url":"./td[2]//a/@href",
+    "on_date":"./td[3]/text()",
+    "total_page":"//div[@class=\"pagesite\"]/div/text()",
+    "an_content":"//body"
+  }
+}

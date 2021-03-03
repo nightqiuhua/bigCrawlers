@@ -1,0 +1,104 @@
+# -*- coding: utf-8 -*-
+#import __init__
+from spiders.redis_spider import RedisStaticSpider
+from wangban_utils.redis_util import get_redis_conn
+from collections import defaultdict
+import socket
+from datetime import datetime
+import os
+from urllib.parse import urlparse
+import re
+import time
+from wangban_utils.Json2Xpath import Json2XPath,XPath
+from urllib.parse import urljoin
+from scrapy.utils.project import get_project_settings
+SETTINGS = get_project_settings()
+JSONFILE = os.path.join(SETTINGS['BASE_JSONFILE_PATH'],'xianju.json')
+
+
+class XianJuSpider(RedisStaticSpider):
+    name = 'xianju'
+    start_urls = ['http://www.zsptztb.com.cn']
+    source_website = '仙居县公共资源交易中心'
+    specific_area = '仙居'
+    source_url = 'http://www.xjztb.cn/'
+    links_tree = {}
+    loss_urls = {}
+    column_urls_pool = []
+
+    def __init__(self,jsonfile = JSONFILE):
+        super().__init__()
+        self.xp = Json2XPath(jsonfile).get_xpath()
+        self.post_suf = '&pageindex={}'
+
+    def cre_page_url(self,f_p_url,page):
+        if page == 0:
+            page = 1
+        page_url = f_p_url + self.post_suf.format(page)
+        return page_url
+
+    def get_totalpage(self,response):
+        try:
+            total_page = response.xpath(self.xp.total_page).extract()[0]
+            total_page = re.findall(r'共(\d+)页',total_page)[0]
+        except Exception as e:
+            print('get_totalpage error_reason',e)
+            print('url',response.url)
+            total_page = 1
+        if not len(total_page):
+            total_page = 1
+        #print('total_page is ',total_page)
+        total_page = self.set_totalpage(total_page)
+        return total_page
+
+    def get_elem_url(self,element,response=None):
+        an_url =self.source_url
+        try:
+            #print('elem_url',element.xpath(self.xp.an_url).extract())
+            elem_url = element.xpath(self.xp.an_url).extract()[0]
+            elem_url = re.findall('(/Bulletin.*)',elem_url)[0]
+            an_url = urljoin(self.source_url,elem_url)
+        except Exception as e:
+            print('get_elem_url error',e)
+            print('url',response.url)
+        #print('an_url',an_url)
+        return an_url
+
+    def get_on_date(self,element,response=None):
+        try:
+            on_date = element.xpath(self.xp.on_date).extract()[0]
+            on_date = re.findall(r'(\d+-\d+-\d+)',on_date)[0]
+        except Exception as e:
+            on_date = 'NONE'
+            print('get_on_date error',e)
+            print('url',response.url)
+        #print('on_date',on_date)
+        return on_date
+
+    def get_an_title(self,element,response=None):
+        an_title = 'NONE'
+        try:
+            an_title = element.xpath(self.xp.an_title).extract()[0]
+        except Exception as e:
+            print('get_an_title error',e)
+            print('url',response.url)
+            an_title = 'NONE'
+        #print('an_title',an_title)
+        return an_title
+
+    #def get_an_sub(self,element,response):
+    #    an_sub = response.meta['an_sub']
+    #    try:
+    #        if len(element.xpath(self.xp.an_sub).extract()):
+    #            an_sub = element.xpath(self.xp.an_sub).extract()[0]
+    #            an_sub = re.findall('\[(.*?)\]',an_sub)[0]
+    #    except Exception as e:
+    #        an_sub = response.meta['an_sub']
+    #        print('get_an_sub error',e)
+    #        print('url',response.url)
+    #    if not len(an_sub):
+    #        an_sub = response.meta['an_sub']
+    #    return an_sub
+
+
+

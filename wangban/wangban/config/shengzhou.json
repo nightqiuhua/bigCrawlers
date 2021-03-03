@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"ewb-work-items\"]/li",
+    "an_title":"./a/text()",
+    "an_url":"./a/@href",
+    "on_date":"./span[@class=\"r ewb-work-date\"]/text()",
+    "total_page":"//a[@class=\"ewb-page-default ewb-page-number ewb-page-family\"]/text()",
+    "an_content":"//body",
+    "next_page":"//div[@title=\"下页\"]"
+  }
+}

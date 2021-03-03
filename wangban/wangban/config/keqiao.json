@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"default_pgContainer\"]//ul/li",
+    "an_title":"./a",
+    "an_url":"./a",
+    "on_date":"./a",
+    "total_page":"//span[@class=\"default_pgTotalPage\"]",
+    "an_content":"//body",
+    "input_value":"//input[@title=\"页码\"]"
+  }
+}

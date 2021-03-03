@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//form[@id=\"form1\"]/div[3]/table//div/table//tr[2]//table//tr[1]",
+    "an_title":".//td[2]/a",
+    "an_url":".//td[2]/a",
+    "on_date":".//td[3]",
+    "total_page":"//span[@id=\"Label1\"]/div",
+    "an_content":"//body"
+  }
+}

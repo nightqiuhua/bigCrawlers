@@ -1,0 +1,272 @@
+
+CRAWL_WUXING_TASKS = {
+    'name':'wuxing',
+    'source_url':'',
+    'task_queue':'wangban:wuxing:an_work_urls',
+    'task_check':'wangban:wuxing:an_check_urls',
+    'task_ajax':'wangban:wuxing:an_ajax_urls',
+    'html_type':'static',
+    'tasks':[
+    {
+        "an_sub": "水利工程",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/zbjggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/zbjggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/zbjggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "预审公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/ysgs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "预审公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/ysgs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "预审公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/ysgs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/dycq/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/dycq/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/dycq/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "评标结果公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/pbjggs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "评标结果公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/pbjggs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "评标结果公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/pbjggs/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "控制价通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/kzjtz/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "控制价通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/kzjtz/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "控制价通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/kzjtz/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "变更公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/bggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "变更公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/bggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "变更公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/bggg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "水利工程",
+        "an_type": "招标公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/slgc/zbgg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "交通工程",
+        "an_type": "招标公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/jtgc/zbgg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "房建市政",
+        "an_type": "招标公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/fjsz/zbgg/index.html",
+        "an_major": "工程建设"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "中标通知书通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/zfcg/zbtzstz/index.html",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "意见征询",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/zfcg/yjzx/index.html",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "更正公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/zfcg/gzgg/index.html",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "招标公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/zfcg/zbgg/index.html",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "结果公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/zfcg/jggg/index.html",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": " 集体经济组织股权交易",
+        "an_type": "交易公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/jtjjzzgqjy/jygs/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农业生产设备所有权(使用权)",
+        "an_type": "交易公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/nyscsbsyqsyq/jygs/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "土地承包经营权流转",
+        "an_type": "交易公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/tdcbjyqlz/jygs/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "其他(四荒地)资源",
+        "an_type": "交易公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/qtshdzy/jygs/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农村房屋使用权",
+        "an_type": "交易公示",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/ncfwsyq/jygs/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": " 集体经济组织股权交易",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/jtjjzzgqjy/jygg/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农业生产设备所有权(使用权)",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/nyscsbsyqsyq/jygg/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "土地承包经营权流转",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/tdcbjyqlz/jygg/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "其他(四荒地)资源",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/qtshdzy/jygg/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农村房屋使用权",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/ncfwsyq/jygg/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": " 集体经济组织股权交易",
+        "an_type": "重要通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/jtjjzzgqjy/zytz/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农业生产设备所有权(使用权)",
+        "an_type": "重要通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/nyscsbsyqsyq/zytz/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "土地承包经营权流转",
+        "an_type": "重要通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/tdcbjyqlz/zytz/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "其他(四荒地)资源",
+        "an_type": "重要通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/qtshdzy/zytz/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "农村房屋使用权",
+        "an_type": "重要通知",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/nczhcq/ncfwsyq/zytz/index.html",
+        "an_major": "农村综合产权"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "NONE",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/qtjy/index.html",
+        "an_major": "其他交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "NONE",
+        "an_sub_url": "http://ggzy.wuxing.gov.cn/jyxx/bzjjttz/index.html",
+        "an_major": "保证金缴退通知"
+    }
+]
+}
+
+def main():
+    return CRAWL_WUXING_TASKS

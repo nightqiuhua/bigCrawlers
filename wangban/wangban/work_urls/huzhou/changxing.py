@@ -1,0 +1,142 @@
+# -*- coding: utf-8 -*-
+
+
+CRAWL_CHANGXING_TASKS = {
+    'name':'changxing',
+    'source_url':'',
+    'task_queue':'wangban:changxing:an_url_works',
+    'task_check':'wangban:changxing:an_url_check',
+    'task_ajax':'wangban:changxing:an_url_ajax',
+    'html_type':'ajax',
+    'tasks':[
+    {
+        "an_sub": "NONE",
+        "an_type": "开标记录",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001011/MoreInfo.aspx?CategoryNum=012002001011",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "征求意见",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001012/MoreInfo.aspx?CategoryNum=012002001012",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "澄清修改",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001008/MoreInfo.aspx?CategoryNum=012002001008",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "资审公示",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001007/MoreInfo.aspx?CategoryNum=012002001007",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "中标公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001006/MoreInfo.aspx?CategoryNum=012002001006",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "招标公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001001/",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "评标公示",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002001/012002001010/MoreInfo.aspx?CategoryNum=012002001010",
+        "an_major": "工程交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "评审公示",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002002/012002002008/012002002008004/MoreInfo.aspx?CategoryNum=012002002008004",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002002/012002002008/012002002008005/MoreInfo.aspx?CategoryNum=012002002008005",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "采购合同",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002002/012002002008/012002002008006/MoreInfo.aspx?CategoryNum=012002002008006",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "征求意见",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002002/012002002008/012002002008002/MoreInfo.aspx?CategoryNum=012002002008002",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "采购公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002002/012002002008/012002002008003/MoreInfo.aspx?CategoryNum=012002002008003",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002003/012002003004/MoreInfo.aspx?CategoryNum=012002003004",
+        "an_major": "产权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公示",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002003/012002003003/MoreInfo.aspx?CategoryNum=012002003003",
+        "an_major": "产权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002003/012002003001/MoreInfo.aspx?CategoryNum=012002003001",
+        "an_major": "产权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "出让公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002004/012002004002/MoreInfo.aspx?CategoryNum=012002004002",
+        "an_major": "国土交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002004/012002004003/MoreInfo.aspx?CategoryNum=012002004003",
+        "an_major": "国土交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公示",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002007/012002007002/MoreInfo.aspx?CategoryNum=012002007002",
+        "an_major": "限额以下"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易公告",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002007/012002007001/MoreInfo.aspx?CategoryNum=012002007001",
+        "an_major": "限额以下"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "部门交易",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002007/012002007003/MoreInfo.aspx?CategoryNum=012002007003",
+        "an_major": "限额以下"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "乡镇交易",
+        "an_sub_url": "http://ggzy.zjcx.gov.cn:8081/cxweb/ggzy/012002/012002007/012002007004/MoreInfo.aspx?CategoryNum=012002007004",
+        "an_major": "限额以下"
+    }
+]
+}
+
+def main():
+    return CRAWL_CHANGXING_TASKS

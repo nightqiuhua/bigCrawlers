@@ -1,0 +1,22 @@
+{
+  "xpath":
+  {
+    "column":"//table[@class=\"GridView\"]//tr[@class=\"Row\"]",
+    "an_title":".//td[@class=\"DispLimitColumn\"]//a",
+    "an_title_web_news":"./td//a",
+    "an_title_Arrange":"./td[@class=\"DispLimitColumn\"]//span",
+    "an_url":"./td[@class=\"DispLimitColumn\"]//a",
+    "an_url_web_news":"./td//a",
+    "on_date":"./td[@class=\"DateColumn\"]",
+    "on_date_web_news":"./td[@class=\"DateColumn\"]",
+    "on_date_BulletinList2":"./td[@class=\"DateColumn\"]//a",
+    "an_sub":"./td[@class=\"CategoryColumn\"]/span",
+    "total_page":"//div[@class=\"RowPager\"]",
+    "an_content":"//body",
+    "next_page":"//input[@value=\"下页\"]",
+    "input_value_BulletinList":"//input[@id=\"grdBulletin_ctl23_NumGoto\"]",
+    "input_value_BulletinList2":"//input[@id=\"GridViewer3_ctl18_NumGoto\"]",
+    "input_value_Arrange":"//input[@id=\"grdBulletin_ctl18_NumGoto\"]",
+    "input_value_web_news":"//input[@id=\"GridViewer1_ctl18_NumGoto\"]"
+  }
+}

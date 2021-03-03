@@ -1,0 +1,15 @@
+{
+  "xpath":
+  {
+    "column":"(//table[@class=\"frame\"]//tr[@class=\"row2\"])|(//table[@class=\"frame\"]//tr[@class=\"row1\"])",
+    "an_title":"./td[2]/a",
+    "an_url":"./td[2]/a",
+    "on_date":"./td[5]",
+    "on_date_result":"./td[7]",
+    "total_page":"//table[@class=\"navigator\"]//td[@nowrap=\"nowrap\"]//span[2]",
+    "an_content":"//body",
+    "input_value":"//input[@id=\"pageNumber\"]",
+    "input_button":"//input[@value=\"跳转\"]",
+    "next_page":"//input[@title=\"下一页\"]"
+  }
+}

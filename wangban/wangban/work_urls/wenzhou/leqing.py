@@ -1,0 +1,147 @@
+
+
+CRAWL_LEQING_TASKS = {
+    'name':'leqing',
+    'source_url':'',
+    'task_queue':'wangban:leqing:an_work_urls',
+    'task_check':'wangban:leqing:an_check_urls',
+    'html_type':'static',
+    'tasks':[
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001008003&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "土地（海域）交易",
+        "an_type": "出让结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001008001&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "土地（海域）交易",
+        "an_type": "出让公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001008002&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "土地（海域）交易",
+        "an_type": "更正公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009004&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "中标公示",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009003&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "答疑公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009002&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "招标文件",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009009&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "开标结果公示",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009001&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "招标公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001009005&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "工程建设",
+        "an_type": "中标结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001010003&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "政府采购",
+        "an_type": "中标（成交）公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001010005&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "政府采购",
+        "an_type": "政府采购意见征询",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001010001&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "政府采购",
+        "an_type": "采购公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001010002&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "政府采购",
+        "an_type": "更正公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001013001&Eptr3=",
+        "an_county": "农村产权",
+        "an_major": "产权交易",
+        "an_type": "交易公告",
+        "an_sub": "农村产权"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001011001&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "产权交易",
+        "an_type": "交易公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001013003&Eptr3=",
+        "an_county": "农村产权",
+        "an_major": "产权交易",
+        "an_type": "交易结果",
+        "an_sub": "农村产权"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001011003&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "产权交易",
+        "an_type": "交易结果",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001014001&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "资源要素交易",
+        "an_type": "交易公告",
+        "an_sub": "NONE"
+    },
+    {
+        "an_sub_url": "http://ztb.yueqing.gov.cn/yqweb/ShowInfo/ShowSearchInfo.aspx?CategoryNum=001014003&Eptr3=",
+        "an_county": "NONE",
+        "an_major": "资源要素交易",
+        "an_type": "成交公告",
+        "an_sub": "NONE"
+    }
+]
+}
+
+def main():
+    return CRAWL_LEQING_TASKS

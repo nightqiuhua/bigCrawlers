@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//table[@id=\"gvMain\"]//tr/td/div[@class=\"ListItem\"]",
+    "an_title":"./div[@class=\"NoWrapHidden ListItemTitle\"]/a/@title",
+    "an_url":"./div[@class=\"NoWrapHidden ListItemTitle\"]/a/@href",
+    "on_date":"./div[@class=\"ListItemDate\"]/text()",
+    "total_page":"//span[@class=\"PageCount\"]/text()",
+    "an_content":"//body"
+  }
+}

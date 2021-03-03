@@ -1,0 +1,13 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"default_pgContainer\"]/div/table//tr",
+    "an_title":"./td[1]/a",
+    "an_url":"./td[1]/a",
+    "on_date":"./td[1]/a",
+    "total_page":"//span[@class=\"default_pgTotalPage\"]",
+    "an_content":"//body",
+    "next_page":"//a[@title=\"下页\"]",
+    "input_value":"//input[@title=\"页码\"]"
+  }
+}

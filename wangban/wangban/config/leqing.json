@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//table[@id=\"DDLInfo\"]//tr//li[@class=\"wb-data-list\"]",
+    "an_title":".//a/text()",
+    "an_url":".//a/@href",
+    "on_date":".//span[@class=\"wb-data-date\"]/text()",
+    "total_page":"//td[@class=\"huifont\"]/text()",
+    "an_content":"//body"
+  }
+}

@@ -1,0 +1,236 @@
+[
+    {
+        "an_sub": "NONE",
+        "an_type": "中标候选人公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/zbhxrgs/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "答疑及补充文件",
+        "an_sub_url": "http://www.dqztb.gov.cn/gxqdybc/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "镇街道限额以下",
+        "an_type": "答疑及补充文件",
+        "an_sub_url": "http://www.dqztb.gov.cn/xzdybc/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "答疑及补充文件",
+        "an_sub_url": "http://www.dqztb.gov.cn/dy/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/gxqpbjjgs/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "镇街道限额以下",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/xzpbjggg/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "中标结果公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/zbjggg/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "资审公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/zsgs/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/gxqzbgg/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "镇街道限额以下",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/xzzbgg/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/zbgg/index.htm",
+        "an_major": "建设工程"
+    },
+    {
+        "an_sub": "部门限额以下",
+        "an_type": "答疑及补充文件",
+        "an_sub_url": "http://www.dqztb.gov.cn/bmdybc/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "部门限额以下",
+        "an_type": "中标公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/bmpbjggg/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "中标公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/zzbgs/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "部门限额以下",
+        "an_type": "采购公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/bmzzgg/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "采购公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/cggg/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "意见征求",
+        "an_sub_url": "http://www.dqztb.gov.cn/yjzq/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "在线询价公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/zfcgzxuj/index.htm",
+        "an_major": "政府采购"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "答疑及补充文件",
+        "an_sub_url": "http://www.dqztb.gov.cn/fzfcgdybc/index.htm",
+        "an_major": "非政府采购项目"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "招标公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/fzfcgzbgg/index.htm",
+        "an_major": "非政府采购项目"
+    },
+    {
+        "an_sub": "高新区资源交易",
+        "an_type": "评标结果公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/fcfcgpbjggs/index.htm",
+        "an_major": "非政府采购项目"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "出让公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/churgg/index.htm",
+        "an_major": "土地交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/chengjgs/index.htm",
+        "an_major": "土地交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/cqcjgs/index.htm",
+        "an_major": "产权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "转让公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/chuanrgg/index.htm",
+        "an_major": "产权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公示",
+        "an_sub_url": "http://www.dqztb.gov.cn/nczrgg/index.htm",
+        "an_major": "农村集体产权"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "转让公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/nccjgs/index.htm",
+        "an_major": "农村集体产权"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/yncjgg/index.htm",
+        "an_major": "用能指标总量交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/ynjygg/index.htm",
+        "an_major": "用能指标总量交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易规则",
+        "an_sub_url": "http://www.dqztb.gov.cn/ynjygz/index.htm",
+        "an_major": "用能指标总量交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://www.dqztb.gov.cn/yndycq/index.htm",
+        "an_major": "用能指标总量交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/pwcjgg/index.htm",
+        "an_major": "排污权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/pwjygg/index.htm",
+        "an_major": "排污权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易规则",
+        "an_sub_url": "http://www.dqztb.gov.cn/pwjjgz/index.htm",
+        "an_major": "排污权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://www.dqztb.gov.cn/pwdycq/index.htm",
+        "an_major": "排污权交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "成交公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/sqjybggg/index.htm",
+        "an_major": "其他交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易公告",
+        "an_sub_url": "http://www.dqztb.gov.cn/sqjyjygg/index.htm",
+        "an_major": "其他交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "交易规则",
+        "an_sub_url": "http://www.dqztb.gov.cn/sqjydycq/index.htm",
+        "an_major": "其他交易"
+    },
+    {
+        "an_sub": "NONE",
+        "an_type": "答疑澄清",
+        "an_sub_url": "http://www.dqztb.gov.cn/sqjyjggs/index.htm",
+        "an_major": "其他交易"
+    }
+]

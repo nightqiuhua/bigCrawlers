@@ -1,0 +1,15 @@
+{
+  "xpath":
+  {
+    "column":"//div[@id=\"ajaxpage-list\"]/li",
+    "an_title":"./a",
+    "an_url":"./a",
+    "on_date":"./a/span",
+    "total_page":"//div[@id=\"pages\"]/font/font/font",
+    "an_content":"//body",
+    "next_page":"//div[@id=\"pages\"]/a[@class=\"next\"]",
+    "an_sub":"./a",
+    "input_page":"//input[@id=\"pages-num\"]",
+    "button":"//div[@id=\"pages\"]/font/font/font/font"
+  }
+}

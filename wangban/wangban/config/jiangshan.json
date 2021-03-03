@@ -1,0 +1,16 @@
+{
+  "xpath":
+  {
+    "column":"//table[@width=\"97%\"]//tr[3]/td/table[@width=\"96%\"]//tr",
+    "an_title":".//a/span/text()",
+    "an_url":".//a/@href",
+    "on_date":"./td/span/text()",
+    "total_page":"//select[@name=\"page\"]/option/text()",
+    "column_nccq":"//table//table[2]//tr",
+    "an_title_nccq":"./td[@width=\"85%\"]/a/font/text()",
+    "an_url_nccq":"./td[@width=\"85%\"]/a/@href",
+    "on_date_nccq":"./td[@width=\"15%\"]/text()",
+    "total_page_nccq":"//table//tr[1]/td/b[4]/font/text()",
+    "an_content":"//body"
+  }
+}

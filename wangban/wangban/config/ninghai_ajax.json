@@ -1,0 +1,18 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"list-news\"]/ul/li",
+    "an_title":"./a/span[1]",
+    "an_url":"./a",
+    "on_date":"./a/span[@class=\"time\"]",
+    "total_page":"//a[@title=\"尾页\"]",
+    "an_content":"/html",
+    "next_page":"下一页",
+    "column_gp":"//ul[@class=\"section\"]/li",
+    "an_title_gp":"./div[@class=\"trade-info fr\"]/p[@class=\"trade-name\"]//a",
+    "an_url_gp":"./div[@class=\"trade-info fr\"]/p[@class=\"trade-name\"]//a",
+    "on_date_gp":"./div[@class=\"trade-info fr\"]/p[@class=\"remain-time\"]",
+    "input_page":"//input[@class=\"laypage_skip\"]",
+    "input_button":"//button[@class=\"laypage_btn\"]"
+  }
+}

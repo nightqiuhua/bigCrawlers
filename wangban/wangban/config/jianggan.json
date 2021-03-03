@@ -1,0 +1,20 @@
+{
+  "xpath":
+  {
+    "column_zab":"//td[@id=\"newslist\"]/table//tr",
+    "an_title_zab":".//a",
+    "an_url_zab":".//a",
+    "on_date_zab":".//a",
+    "total_page_zab":"//td[@id=\"pagelist\"]",
+    "click_page":"//select",
+    "input_page":"//select//option[@value=\"{}\"]",
+    "an_content":"//body",
+    "column_zb":"//div[@class=\"yijianx_bg\"]/ul/li",
+    "an_title_zb":".//a[2]",
+    "an_url_zb":".//a[2]",
+    "on_date_zb":".//a[2]",
+    "total_page_zb":"//span[@class=\"default_pgTotalPage\"]",
+    "input_page":"//input[@title=\"页码\"]",
+    "an_content":"//body"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//div[@align=\"center\"]/table//tr[@height=\"30\"]",
+    "an_title":"./td[@align=\"left\"]/a/@title",
+    "an_url":"./td[@align=\"left\"]/a/@href",
+    "on_date":"./td[@width=\"80\"]/text()",
+    "total_page":"//td[@class=\"huifont\"]/text()",
+    "an_county":"./td[@align=\"left\"]/font[@color=\"red\"]/text()",
+    "an_content":"//body"
+  }
+}

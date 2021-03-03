@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"news-list\"]/li",
+    "an_title":"./a",
+    "an_url":"./a",
+    "on_date":"./span",
+    "total_page":"最末页",
+    "an_content":"//body",
+    "next_page":"下一页"
+  }
+}

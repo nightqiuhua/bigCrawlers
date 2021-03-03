@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"Book-right\"]/ul/ul/li",
+    "an_title":"./a/@title",
+    "an_url":"./a/@href",
+    "on_date":"./span/text()",
+    "total_page":"//div[@class=\"Zy-Page FloatL\"]/div/text()",
+    "an_content":"//body"
+  }
+}

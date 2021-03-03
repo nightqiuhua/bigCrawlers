@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"wb-data-item center\"]/li",
+    "an_title":"./div/a/@title",
+    "an_url":"./div/a/@href",
+    "on_date":"./span/text()",
+    "total_page":"//ul[@class=\"ewb-page-items clearfix\"]/li/a/@href",
+    "an_content":"//body",
+    "next_page":"//li[@class=\"ewb-page-li ewb-page-hover\"][2]/a"
+  }
+}

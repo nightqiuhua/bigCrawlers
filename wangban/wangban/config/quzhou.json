@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"ewb-col-item news-list-items\"]//li",
+    "an_title":".//a//text()",
+    "an_url":".//a/@href",
+    "on_date":"./span/text()",
+    "total_page":"//li[@class=\"ewb-page-li ewb-page-noborder ewb-page-num\"]/span/text()",
+    "an_county":"./td[@align=\"left\"]/font[@color=\"red\"]/text()",
+    "an_content":"//body"
+  }
+}

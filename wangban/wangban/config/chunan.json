@@ -1,0 +1,12 @@
+{
+  "xpath":
+  {
+    "column":"//td[@id=\"MoreInfoList1_tdcontent\"]//tr",
+    "an_title":"./td[@align=\"left\"]/a",
+    "an_url":"./td[@align=\"left\"]/a",
+    "on_date":"./td[3]",
+    "total_page":"//div[@id=\"MoreInfoList1_Pager\"]/table//tr/td[1]/font[2]/b",
+    "an_content":"//body",
+    "next_page":"//img[@src=\"/chunanweb/images/page/nextn.gif\"]"
+  }
+}

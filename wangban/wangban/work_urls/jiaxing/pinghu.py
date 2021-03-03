@@ -1,0 +1,134 @@
+
+CRAWL_PINGHU_TASKS = {
+    'name':'pinghu',
+    'source_url':'',
+    'task_queue':'wangban:pinghu:an_work_urls',
+    'task_check':'wangban:pinghu:an_check_urls',
+    'task_ajax':'wangban:pinghu:an_ajax_urls',
+    'html_type':'static',
+    'tasks':[
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001008/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "中标公示"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001003/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "开标记录"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001002/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "资格预审公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001001/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "招标公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001007/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "补充答疑"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003001/003001006/subpagesecond.html",
+        "an_major": "工程建设",
+        "an_type": "中标公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003002/003002004/subpagesecond.html",
+        "an_major": "政府采购",
+        "an_type": "征求意见"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003002/003002006/subpagesecond.html",
+        "an_major": "政府采购",
+        "an_type": "中标公示"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003002/003002005/subpagesecond.html",
+        "an_major": "政府采购",
+        "an_type": "补充公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003002/003002001/subpagesecond.html",
+        "an_major": "政府采购",
+        "an_type": "采购公告"
+    },
+    {
+        "an_sub": "其它要素交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003010/003010003/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "结果公告"
+    },
+    {
+        "an_sub": "土地交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003010/003010002/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "结果公告"
+    },
+    {
+        "an_sub": "产权交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003010/003010001/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "结果公告"
+    },
+    {
+        "an_sub": "其它要素交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003009/003009003/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "出让信息"
+    },
+    {
+        "an_sub": "土地交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003009/003009002/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "出让信息"
+    },
+    {
+        "an_sub": "产权交易",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003009/003009001/subpagesecond.html",
+        "an_major": "要素交易",
+        "an_type": "出让信息"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003007/003007001/subpagesecond.html",
+        "an_major": "镇街道",
+        "an_type": "招标公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003007/003007002/subpagesecond.html",
+        "an_major": "镇街道",
+        "an_type": "中标公示"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003008/003008001/subpagesecond.html",
+        "an_major": "部门单位",
+        "an_type": "招标公告"
+    },
+    {
+        "an_sub": "NONE",
+        "an_sub_url": "http://ph.jxzbtb.cn/jygg/003008/003008002/subpagesecond.html",
+        "an_major": "部门单位",
+        "an_type": "中标公示"
+    }
+]
+}
+
+def main():
+    return CRAWL_PINGHU_TASKS

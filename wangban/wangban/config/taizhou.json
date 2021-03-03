@@ -1,0 +1,14 @@
+{
+  "xpath":
+  {
+    "column":"//table[@class=\"table-box\"]//tr",
+    "an_title":"./td[2]//span",
+    "an_url":"./td[2]/a",
+    "on_date":"./td[4]",
+    "total_page":"//div[@class=\"Page-bg floatL\"]/div",
+    "an_content":"//body",
+    "an_text_title":"//h1/text()",
+    "next_page":"下一页",
+    "input_page":"//input[@title=\"页码\"]"
+  }
+}

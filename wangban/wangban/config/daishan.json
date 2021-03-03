@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//table[@class=\"article-body\"]//td[@valign=\"top\"]/table//tr[@height=\"30\"]",
+    "an_title":"./td[@align=\"left\"]/a/@title",
+    "an_url":"./td[@align=\"left\"]/a/@href",
+    "on_date":"./td[@width=\"80\"]/text()",
+    "total_page":"//div[@class=\"pagemargin\"]//td[@class=\"huifont\"]/text()",
+    "an_content":"//body"
+  }
+}

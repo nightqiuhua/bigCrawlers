@@ -1,0 +1,23 @@
+{
+  "xpath":
+  {
+    "column":"//table//tr[@class=\"GridItem\"]",
+    "an_title":"./td[2]/a[@target=\"_blank\"][2]",
+    "an_url":"./td[2]/a[@target=\"_blank\"][2]",
+    "on_date":"./td[@align=\"right\"]/span[@class=\"spdate\"]/a",
+    "total_page":"//td[@class=\"black\"]/font[2]/b",
+    "an_content":"//body",
+    "next_page":"【后页】",
+    "column_qypbt":"//table[@cellpadding=\"2\"]//tr",
+    "an_title_qypbt":".//td[@align=\"left\"]/a",
+    "an_url_qypbt":".//td[@align=\"left\"]/a",
+    "on_date_qypbt":".//td[2]",
+    "column_AfficheList":"//table[@class=\"black\"]//tr",
+    "an_title_AfficheList":".//td[@align=\"left\"][2]/a",
+    "an_url_AfficheList":".//td[@align=\"left\"][2]/a",
+    "on_date_AfficheList":".//td[4]",
+    "an_url_Bulletin1":"./td[2]/a[@target=\"_blank\"]",
+    "an_title_Bulletin1":"./td[2]/a[@target=\"_blank\"]",
+    "on_date_EnterHonestInfoList":"./td[@align=\"right\"]"
+  }
+}

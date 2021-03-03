@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//div[@class=\"Right-Border floatL\"]/dl/dt",
+    "an_title":"./a[1]/text()",
+    "an_url":"./a[1]/@href",
+    "on_date":"./span/text()",
+    "total_page":"//div[@class=\"Page-bg floatL\"]/div[1]/text()",
+    "an_content":"//body"
+  }
+}

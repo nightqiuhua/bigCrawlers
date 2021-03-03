@@ -1,0 +1,11 @@
+{
+  "xpath":
+  {
+    "column":"//ul[@class=\"list-box fr\"]/li/ul/li",
+    "an_title":"./a/@title",
+    "an_url":"./a/@href",
+    "on_date":"./span/text()",
+    "total_page":"//ol[@class=\"page-box clearfix fr\"]/select//option/text()",
+    "an_content":"//body"
+  }
+}

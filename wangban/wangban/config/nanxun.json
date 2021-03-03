@@ -1,0 +1,13 @@
+{
+  "xpath":
+  {
+    "column":"//div[@id=\"ajaxpage-list\"]/table//tr",
+    "an_title":".//td/a",
+    "an_url":".//td/a",
+    "on_date":".//td/span",
+    "total_page":"//span[@class=\"default_pgTotalPage\"]",
+    "an_content":"/html",
+    "next_page":"确定",
+    "input_value":"//input[@id=\"pages-num\"]"
+  }
+}

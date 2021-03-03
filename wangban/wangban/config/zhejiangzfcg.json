@@ -1,0 +1,13 @@
+{
+  "xpath":
+  {
+    "column":"//div[@id=\"gpozItems\"]//p",
+    "an_title":"./a/span[@class=\"underline\"]",
+    "an_url":"./a",
+    "on_date":"./span[@class=\"time\"]",
+    "total_page":"//td[@class=\"huifont\"]/text()",
+    "an_county":"./a//span[@class=\"warning\"]",
+    "an_sub":".//span[@class=\"limit\"]",
+    "an_content":"//body"
+  }
+}

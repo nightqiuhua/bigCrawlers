@@ -1,0 +1,21 @@
+{
+  "xpath":
+  {
+    "total_page":"//div[@class=\"RowPager\"]",
+    "an_content":"//body",
+    "next_page":"//input[@value=\"下页\"]",
+    "column":"//table[@class=\"GridView\"]//tr[@class=\"Row\"]",
+    "an_title":".//td[@class=\"DispLimitColumn\"]//a",
+    "an_url":"./td[@class=\"DispLimitColumn\"]//a",
+    "on_date":"./td[@class=\"DateColumn\"]",
+    "an_sub":"./td[@class=\"CategoryColumn\"]//span",
+    "an_sub_ProArticle":"./td[@class=\"CategoryColumn\"][1]",
+    "an_sub_PropertyTrade":"./td[@class=\"CategoryColumn\"][1]",
+    "an_county_PennyAnte":"./td[@class=\"CategoryColumn\"]//span",
+    "input_value_ProArticle":"//input[@id=\"GridViewer1_ctl18_NumGoto\"]",
+    "input_value_Bulletin":"//input[@id=\"grdBulletin_ctl18_NumGoto\"]",
+    "input_value_web_news":"//input[@id=\"GridViewer1_ctl18_NumGoto\"]",
+    "input_value_PropertyTrade":"//input[@id=\"grdBulletin_ctl18_NumGoto\"]",
+    "input_value_PennyAnte":"//input[@id=\"grdBulletin_ctl18_NumGoto\"]"
+  }
+}
